@@ -75,7 +75,7 @@ nsid 「a/b」として上流へ流していた。**ここもそうする。** N
 `sveltekit-edge-bff` から `cljs-worker` に変えた —— BFF が実際にもう SvelteKit
 ではないからである。
 
-## いま在るもの — 19 ファイル
+## いま在るもの — 20 ファイル
 
 | 面 | ファイル |
 |---|---|
@@ -86,7 +86,7 @@ nsid 「a/b」として上流へ流していた。**ここもそうする。** N
 | Worker 設定 | `appview/po-mcp-component/wrangler.jsonc` |
 | actor 記述子 | `appview/po-mcp-component/kotodama.jsonld` |
 | プロセス定義 | `bpmn/po.bpmn` |
-| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` |
+| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` / `blueprint.edn` |
 | 文書 | `README.md` / `docs/operator-quickstart.md` / `docs/adr/0001-*.edn` |
 
 **production の TypeScript は 0 本、Svelte も 0 本、正本言語（`.cljs` / `.cljc`）が

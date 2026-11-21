@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "purchase-order"
+ :itonami.blueprint/name "purchase-order — purchase order and supply chain appview"
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 8299, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "8299"
+ :itonami.blueprint/domain :business/purchase-orders}
